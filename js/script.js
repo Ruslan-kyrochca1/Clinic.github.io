@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.result_example').slick({
-        speed: 1000,
+        speed: 700,
         infinite: false,
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -18,7 +18,7 @@ $(document).ready(function(){
   let options = {
     threshold: [0.5] };
   let observer = new IntersectionObserver(onEntry, options);
-  let elements = document.querySelectorAll('.result_statistics_gr_2 ,.data_1, .data_2, .result_statistics_gr img');
+  let elements = document.querySelectorAll('.data_1, .data_2');
   
   for (let elm of elements) {
     observer.observe(elm);
