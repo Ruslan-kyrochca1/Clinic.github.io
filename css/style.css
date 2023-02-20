@@ -706,7 +706,7 @@
 .increase{
   position: relative;
   padding: 40px;
-  width: 100%;
+  width: 1300px;
   height: 641px;
   background: #014AEB;
   border-radius: 30px;
@@ -841,7 +841,7 @@
   color: #26252A;
 }
 .total img{
-  transform: translateX(-50px);
+  transform: translateX(-70px);
   width: 250%;
 }
 
