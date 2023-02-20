@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  /* outline: 5px solid green; */
   padding: 0px;
 }
 /*Header*/
@@ -389,7 +388,7 @@
   font-size: 24px;
   line-height: 145%;
   color: #26252A;
-  margin-right: 40px;
+  margin-right: 0px;
   transform: translateX(-110px);
 }
 
